@@ -1,0 +1,145 @@
+html {
+    height: 100%;
+  }
+
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    --_mesh-gradient-blur: 100px;
+    --_mesh-gradient-blend-mode: normal;
+  
+    background: radial-gradient(at 0% 0%, #000000 0px, transparent 50%), radial-gradient(at 3.5474581251836614% 25.18757982120051%, #000000 0px, transparent 50%), radial-gradient(at 39.054951513370554% 97.9845146871009%, #435cb6 0px, transparent 50%), radial-gradient(at 67.71672054069938% 98.11222860791827%, #768ad0 0px, transparent 50%), radial-gradient(at 63.052600646488386% 42.55667305236271%, #a15cc1 0px, transparent 50%), radial-gradient(at 26.191007934175726% 100%, #000000 0px, transparent 50%) #957641;
+    mix-blend-mode: var(--_mesh-gradient-blend-mode);
+  }
+
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 380px;
+    padding: 40px;
+    height: 390px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.336);
+    box-sizing: border-box;
+    box-shadow: 0 20px 25px 5px rgba(0, 0, 0, 0.726);
+    border-radius: 23px;
+  }
+  
+  .login-box h2 {
+    margin: 8px 0 40px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 300px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #ffffff;       
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+
+  .line{
+    width: 300px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid #4949493a;
+    outline: none;
+    position: absolute;
+    bottom: 137px;
+    box-shadow: 0px 4px 20px 2px #000000;
+  }
+
+  .line1{
+    width: 300px;      
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid #4949493a;
+    outline: none;
+    position: absolute;
+    bottom: 204px;
+    box-shadow: 0px 4px 20px 2px #000000;
+  }
+
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #ffffff8c;
+    pointer-events: none;
+    transition: .3s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #7575758a;
+    font-size: 12px;
+  }
+  
+  .login-box form .submit {
+    position: absolute;
+    left: 120px;
+    padding: 12px 28px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration: none;
+    transition: .3s;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 3px 10px 0px #000000bb;
+  }
+  
+  .login-box .submit:hover {
+    background: white;
+    color: black;
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-shadow: 0 0 5px white,
+                0 0 25px white,
+                0 0 50px white,
+                0 0 100px white;
+  }
+  
+  .folyt{
+    font-size: 13px;
+    color: #fff;
+    position: absolute;
+    bottom: 50px;
+    left: 103px;
+  }
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+   
+body::-webkit-scrollbar-track {
+    box-shadow:rgba(0, 0, 0, 0);
+}
+   
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(165, 31, 60);
+    outline: 0px solid rgb(165, 31, 60);
+}
+
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+	border-radius: 10px;
+	background-color: #243b55;
+}
